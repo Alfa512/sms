@@ -814,6 +814,7 @@ li.enroll {
         /*-webkit-text-stroke-width: 1px;
         -webkit-text-stroke-color: #f77807;*/
         font-size: 50px;
+        margin-top: 250px;
     }
 
     .inf-block h3 {
@@ -2086,7 +2087,11 @@ h3.inf-teacher {
     }
 
     .inf-block h1 {
-        font-size: 25px !important;
+        font-size: 45px !important;
+    }
+
+    .inf-block h2 {
+        font-size: 35px !important;
     }
 
     .inf-block {
@@ -2294,7 +2299,11 @@ h3.inf-teacher {
     }
 
     .inf-block h1 {
-        font-size: 22px !important;
+        font-size: 30px !important;
+    }
+
+    .inf-block h2 {
+        font-size: 25px !important;
     }
 
     .inf-block h3 {
@@ -2467,7 +2476,11 @@ h3.inf-teacher {
     }
 
         .inf-block h1 {
-            font-size: 19px !important;
+            font-size: 22px !important;
+        }
+
+        .inf-block h2 {
+            font-size: 20px !important;
         }
 
         .inf-block h3 {
