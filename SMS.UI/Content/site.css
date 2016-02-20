@@ -2092,6 +2092,7 @@ h3.inf-teacher {
 
     .inf-block h2 {
         font-size: 35px !important;
+        margin-top: 50px;
     }
 
     .inf-block {
@@ -2477,10 +2478,12 @@ h3.inf-teacher {
 
         .inf-block h1 {
             font-size: 22px !important;
+            margin-top: 0;
         }
 
         .inf-block h2 {
             font-size: 20px !important;
+            margin-top: 100px;
         }
 
         .inf-block h3 {
@@ -6626,6 +6629,28 @@ textarea {
     .inf-free-lesson {
         display: none;
     }
+}
+
+@media only screen and (max-height: 470px) {
+
+    .inf-block {
+        padding-top: 110px;
+    }
+
+        .inf-block h1 {
+            font-size: 30px !important;
+            margin-top: 0;
+        }
+
+        .inf-block h2 {
+            font-size: 20px !important;
+            margin-top: 0;
+        }
+
+        .inf-block h3 {
+            font-size: 18px !important;
+            margin-top: 0;
+        }
 }
 
 input.ng-invalid {
