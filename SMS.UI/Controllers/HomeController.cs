@@ -13,25 +13,25 @@ namespace SMS.Controllers
             return View();
         }
 
-        public ActionResult Courses()
-        {
-            return View();
-        }
+        //public ActionResult Courses()
+        //{
+        //    return View();
+        //}
 
-        public ActionResult OrderLesson()
-        {
-            return View();
-        }
+        //public ActionResult OrderLesson()
+        //{
+        //    return View();
+        //}
 
-        public ActionResult Costs()
-        {
-            return View();
-        }
+        //public ActionResult Costs()
+        //{
+        //    return View();
+        //}
 
-        public ActionResult RequisitesRequestModal()
-        {
-            return View("_RequisitesRequestModal");
-        }
+        //public ActionResult RequisitesRequestModal()
+        //{
+        //    return View("_RequisitesRequestModal");
+        //}
 
         public ActionResult PageNotFound()
         {
