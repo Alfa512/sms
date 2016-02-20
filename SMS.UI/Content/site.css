@@ -40,6 +40,21 @@
     src: url(../fonts/Raleway-SemiBold_0.ttf);
 }
 
+@font-face {
+    font-family: CentSchbook_Win95Bt;
+    src: url(../fonts/CentSchbook_Win95Bt.ttf);
+}
+
+@font-face {
+    font-family: Classica_One;
+    src: url(../fonts/Classica_One.ttf);
+}
+
+@font-face {
+    font-family: Christmas_ScriptC;
+    src: url(../fonts/Christmas_ScriptC.ttf);
+}
+
 html {
     max-width: 100%;
 }
@@ -87,7 +102,7 @@ html {
 }
 
 ::selection {
-    background: #0a906f;
+    background: #09800E;
     color: #fff;
 }
 
@@ -298,6 +313,8 @@ html {
     margin-right: 15px;
     padding-left: 15px;
     z-index: 200;
+    position: absolute;
+    bottom: 0;
 }
 
 .col-md-4.midle {
@@ -305,7 +322,7 @@ html {
 }
 
 .btn.buttom-left.title-bottom {
-    border-radius: 0px;
+    border-radius: 0;
 }
 
 .icon-scroll {
@@ -318,11 +335,19 @@ html {
     /* bottom: 2% !important; */
 }
 
-    .icon-scroll p {
-        margin: 0 !important;
-        font-size: 12px;
-        font-family: Raleway-Light;
-    }
+.icon-scroll-main {
+    width: 250px;
+    margin-top: -60px;
+    margin: 0 auto;
+    text-align: center;
+    color: #FF1122;
+}
+
+.icon-scroll p {
+    margin: 0 !important;
+    font-size: 12px;
+    font-family: Raleway-Light;
+}
 
 .icon-mouse {
     width: 12%;
@@ -682,7 +707,7 @@ ul.nav.navbar-nav.navbar-right.btn-top-bar {
 }
 
 .logo {
-    background: url('../Content/img/dialogue.png');
+    background: url('../Content/img/MTB-logo.png');
     background-repeat: no-repeat;
     height: 100px;
     width: 200px;
@@ -695,7 +720,7 @@ a.navbar-brand.logo {
 }
 
 #tf-menu.navbar-default {
-    background: rgba(10, 144, 111, 1);
+    background: rgba(85, 138, 136, 1);
     border: none;
     z-index: 2;
 }
@@ -761,28 +786,45 @@ li.enroll {
 
 /* ====================================================== START-SECTION ============================================================ */
 #start-section {
-    top: 0px;
+    top: 0;
 }
 
 .inf-block {
     margin: auto;
     padding-top: 170px;
-    color: #fff;
+    color: #f77807;
     text-align: center;
     transition: all 0.2s ease-in-out;
     -webkit-transition: all 0.2s ease-in-out;
 }
 
     .inf-block h1 {
-        font-family: Raleway-Black;
+        font-family: Christmas_ScriptC;
         letter-spacing: 2px;
+        color: #FF1122;
+        /*-webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: #f77807;*/
+        font-size: 90px;
+    }
+
+    .inf-block h2 {
+        font-family: Christmas_ScriptC;
+        letter-spacing: 2px;
+        color: #FF1122;
+        /*-webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: #f77807;*/
+        font-size: 50px;
     }
 
     .inf-block h3 {
         margin-top: 20px;
         letter-spacing: 1px;
-        font-family: Raleway-Light;
+        font-family: CentSchbook_Win95Bt;
         line-height: 1.3em;
+        color: #FF1122;
+        /*-webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: #fff;*/
+        font-size: 30px;
     }
 
 .inf-block-color-g {
@@ -933,6 +975,8 @@ li.enroll {
 
 .color-scheme-3 img {
     padding-bottom: 15px;
+    height: 128px;
+    width: 128px;
 }
 
 /* End of 1-PART */
@@ -981,6 +1025,7 @@ li.enroll {
 .cd-fixed-bg.cd-bg-2 {
     background-image: url("../Content/img/bg-parallax-section.jpg");
     height: 440px;
+    background-attachment: fixed;
 }
 
 .cd-fixed-bg.cd-bg-3 {
@@ -1961,7 +2006,7 @@ h3.inf-teacher {
 
     .logo {
         margin-top: 0px;
-        background: url('../Content/img/dialogue.png') no-repeat;
+        background: url('../Content/img/MTB-logo.png') no-repeat;
         width: 150px;
         height: 59px;
     }
@@ -6840,8 +6885,8 @@ textarea::-webkit-input-placeholder, input:-ms-input-placeholder {
     flex-direction: column;
 }
 
-.not-found h2 {
-    text-align: center;
-    font-size: 40px;
-    margin: 0;
-}
+    .not-found h2 {
+        text-align: center;
+        font-size: 40px;
+        margin: 0;
+    }

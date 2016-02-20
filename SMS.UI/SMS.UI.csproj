@@ -236,6 +236,7 @@
     <Content Include="Content\animate.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\fonts.css" />
     <Content Include="Content\images\alfa512ks%40mail.ru.jpg" />
     <Content Include="Content\images\English.jpg" />
     <Content Include="Content\img\bg-blog.jpg" />
@@ -277,6 +278,8 @@
     <Content Include="Content\img\flag_francii-min.png" />
     <Content Include="Content\img\fr-min.jpg" />
     <Content Include="Content\img\france.jpg" />
+    <Content Include="Content\img\fullface-white.png" />
+    <Content Include="Content\img\fullface.png" />
     <Content Include="Content\img\germany.jpg" />
     <Content Include="Content\img\green-cubed-vinograd-chashka.jpg" />
     <Content Include="Content\img\happy-sailors-min.jpg" />
@@ -286,7 +289,11 @@
     <Content Include="Content\img\icon-arrow-down.png" />
     <Content Include="Content\img\icon-arrow-min.png" />
     <Content Include="Content\img\icon-baggage.png" />
+    <Content Include="Content\img\icon-bicycle.png" />
+    <Content Include="Content\img\icon-bike-fall.png" />
     <Content Include="Content\img\icon-certificate.png" />
+    <Content Include="Content\img\icon-cool-ride.jpg" />
+    <Content Include="Content\img\icon-cool-ride.png" />
     <Content Include="Content\img\icon-dialogue .png" />
     <Content Include="Content\img\icon-dialogue-.png" />
     <Content Include="Content\img\icon-eduaction.png" />
@@ -297,6 +304,7 @@
     <Content Include="Content\img\icon-internet.png" />
     <Content Include="Content\img\icon-language.png" />
     <Content Include="Content\img\icon-mouse-cost.png" />
+    <Content Include="Content\img\icon-mouse-r.png" />
     <Content Include="Content\img\icon-mouse.png" />
     <Content Include="Content\img\icon-outlook.png" />
     <Content Include="Content\img\icon-progress.png" />
@@ -313,11 +321,13 @@
     <Content Include="Content\img\logo-min.png" />
     <Content Include="Content\img\logo.png" />
     <Content Include="Content\img\more-pesok-devushki-pryzhok.jpg" />
+    <Content Include="Content\img\MTB-logo.png" />
     <Content Include="Content\img\muzhik-krolik-naryad-devochka.jpg" />
     <Content Include="Content\img\parallax-section.jpg" />
     <Content Include="Content\img\pig.gif" />
     <Content Include="Content\img\pig.png" />
     <Content Include="Content\img\po-min.jpg" />
+    <Content Include="Content\img\poster.jpg" />
     <Content Include="Content\img\prepare-to-exam-min.jpg" />
     <Content Include="Content\img\sevilla-sevilya-plaza-de.jpg" />
     <Content Include="Content\img\sp-min.jpg" />
@@ -357,6 +367,9 @@
     <Content Include="Scripts\Card-polygon.js" />
     <Content Include="Scripts\course.services.js" />
     <Content Include="Scripts\global.services.js" />
+    <Content Include="fonts\CentSchbook_Win95Bt.ttf" />
+    <Content Include="fonts\Christmas_ScriptC.ttf" />
+    <Content Include="fonts\Classica_One.ttf" />
     <None Include="Properties\PublishProfiles\ALFA.pubxml" />
     <Content Include="Scripts\index.js" />
     <Content Include="Scripts\jquery-1.11.3.js" />
