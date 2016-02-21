@@ -102,12 +102,12 @@ html {
 }
 
 ::selection {
-    background: #09800E;
+    background: #558a88;
     color: #fff;
 }
 
 ::-moz-selection {
-    background: #0a906f;
+    background: #558a88;
     color: #fff;
 }
 
@@ -256,7 +256,7 @@ html {
 
 .title_line_2 {
     margin: 0 auto;
-    padding-top: 0px;
+    padding-top: 0;
     -moz-transform: translateX(-50%) translateY(-50%);
     -ms-transform: translateX(-50%) translateY(-50%);
     -o-transform: translateX(-50%) translateY(-50%);
@@ -538,7 +538,7 @@ select {
 }
 
 .form-md-select:hover {
-    background-color: #0a906f !important;
+    background-color: #558a88 !important;
 }
 
 .log {
@@ -628,7 +628,7 @@ select {
     box-shadow: none;
     font-family: Raleway-Light;
     color: #fff;
-    background: #0a906f;
+    background: #558a88;
     letter-spacing: 1.5px;
 }
 
@@ -636,7 +636,7 @@ select {
         color: #ffffff;
         outline: none;
         box-shadow: none;
-        background-color: #38c3a3;
+        background-color: #558a88;
     }
 
     .btn-send:focus {
@@ -668,15 +668,15 @@ select {
 }
 
 .btn-top-bar a:hover {
-    background: #0d765c !important;
+    background: #448a66 !important;
 }
 
 .btn-top-bar a:active {
-    background: #0a6d55 !important;
+    background: #449860 !important;
 }
 
 .page-scroll-active {
-    background: #0a6d55 !important;
+    background: #558a88 !important;
 }
 
 button.navbar-toggle.btn-collapsed {
@@ -778,7 +778,7 @@ li.enroll {
         top: 1px;
         color: #fff;
         text-shadow: 0 -1px rgba(0,0,0,.3), 0 0 5px #ffd, 0 0 8px #fff;
-        box-shadow: 0 -1px 3px rgba(0,0,0,.3), 0 1px 1px #fff, inset 0 1px 2px rgba(0,0,0,.8), inset 0 -1px 0 rgba(0,0,0,.05);
+        box-shadow: 0 -1px 3px rgba(0,0,0,.3), 0 1px 1px #fff, inset 0 1px 2px rgba(0,0,0,.8), inset 0 -1px 0 rgba(0,0,0,0.5);
     }
 
 /* End of TOP-BAR*/
@@ -2052,8 +2052,8 @@ h3.inf-teacher {
     }
 
     .navbar-default .navbar-collapse {
-        border-top: 1px solid #0d765c;
-        background-color: #09906f;
+        border-top: 1px solid #337866;
+        background-color: #558a88;
         padding: 0 !important;
     }
 
